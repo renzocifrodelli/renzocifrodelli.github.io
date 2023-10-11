@@ -1328,13 +1328,13 @@ nav.main-menu {
 	max-width: 100%;
 }
 
-.padding_right_15_inner {
+/* .padding_right_15_inner {
 	padding-right: 15px;
 }
 
 .padding_left_15_inner {
 	padding-left: 15px;
-}
+} */
 
 .dark_bg {
 	background: #114c7d;
@@ -2588,6 +2588,10 @@ li {
 	align-items: center;
 	text-align: justify;
 }
+.div-profesional p strong{
+	font-weight: bold;
+}
+
 
 .div-profesional p{
 	font-size: 15px;

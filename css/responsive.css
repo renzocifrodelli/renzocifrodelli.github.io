@@ -10,6 +10,7 @@
     .header-search {
         padding: 15px 0px;
     }
+   
 }
 
 
@@ -82,6 +83,7 @@
     #collapseFilter.d-md-block {
         padding: 30px 0px;
     }
+    
 }
 
 
@@ -382,21 +384,74 @@
     ul.contant_icon {
         margin-bottom: 20px;
     }
-}
+    .titulo-perfil h2{
+        font-size: 18px;
+    }   
+    .pie-pagina .grupo-1{
+        grid-gap: 5px;
+        padding-left: 10px;
+        font-size: 11px;
+        grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "aside"
+        "footer";
+        grid-template-columns: 1fr; /* Una sola columna */
+        grid-template-rows: auto; /* Altura automática */
+        align-items: center;
+        
+    }
+    .pie-pagina .grupo-1 .box h2{
+        font-size: 14px;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 15px;
+        font-weight: bold;
+    }
+    .pie-pagina .grupo-1 .box .contacto{
+        font-size: 11px;
+        padding: 15px;
+        
+    }
+    .contacto p{
+        padding-bottom: 15px;
+    }
+    .box .footer-guia{
+        padding-bottom: 15px;
+        padding-left: 15px
+    }
+    .red-social{
+        display: flex;
+        justify-content:space-evenly;
+    }
+    .fondo-de-perfil{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .div-profesional p{
+        font-size: 13px;
+        margin: 1vh 3vh 7vh 3vh;
+    }
+    .btn-dark{
+        font-size: 18px;
+    }
+    #barra{
+        padding-right: 0px;
+        padding-left: 0px;
 
-  .content {
-    width: 70%; /* Ancho del cuadro */
-    height: 100%;
-    background-color: #f1f1f1; /* Color de fondo del cuadro */
-    float: left;
-  }
-  
-  .map {
-    width: 30%; /* Ancho del mapa */
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    /* Agrega aquí cualquier otro estilo específico para el mapa */
-  }
-  
+    }
+    #barra2{
+        padding-right: 0px;
+    }
+    #myCarousel a.carousel-control-next{
+        right: 0px !important;
+        width: 40px;
+        height: 40px;
+    }
+    #myCarousel a.carousel-control-prev{
+        left: 0px !important;
+        width: 40px;
+        height: 40px;
+    }
+}
